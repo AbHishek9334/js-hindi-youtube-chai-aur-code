@@ -1,14 +1,14 @@
 //objects literals
-const mySym=Symbol("Keys1")
-const JsUser={
-    name:"Hitesh",
-    [mySym]:"myKeys1",
-    age:18,
-    location:"Jaipur",
-    email:"hitesh@google.com",
-    isLoggedIn:false,
-    lastLogInDays:["Monday","Saturday"]
- }
+// const mySym=Symbol("Keys1")
+// const JsUser={
+//     name:"Hitesh",
+//     [mySym]:"myKeys1",
+//     age:18,
+//     location:"Jaipur",
+//     email:"hitesh@google.com",
+//     isLoggedIn:false,
+//     lastLogInDays:["Monday","Saturday"]
+//  }
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log( JsUser[mySym])
@@ -59,3 +59,11 @@ const JsUser={
 // console.log(Object.values(JsUser))
 // console.log(Object.entries(JsUser))
 // console.log(JsUser.hasOwnProperty("name"))
+//destructing
+const course={
+    courseName:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+const {courseName,price,courseInstructor}=course
+console.log(courseName,price,courseInstructor)
