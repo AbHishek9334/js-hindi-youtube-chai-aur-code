@@ -54,7 +54,7 @@
 //     console.log(key)
 // }
 //forEach loop
-const coding=["js","python","java","ruby","cpp"]
+// const coding=["js","python","java","ruby","cpp"]
 // coding.forEach(function (val){
 //     console.log(val)
 // })
@@ -65,20 +65,27 @@ const coding=["js","python","java","ruby","cpp"]
 // coding.forEach((item,index,arr)=>{
 //     console.log(item,index,arr)
 // })
-const myCoding=[
-    {
-        languageName:"javascript",
-        languageFileName:"js"
-    },
-    {
-        languageName:"java",
-        languageFileName:"java"
-    },
-    {
-        languageName:"python",
-        languageFileName:"py"
-    }
-]
-myCoding.forEach((item)=>{
-    console.log(item.languageName)
-})
+// const myCoding=[
+//     {
+//         languageName:"javascript",
+//         languageFileName:"js"
+//     },
+//     {
+//         languageName:"java",
+//         languageFileName:"java"
+//     },
+//     {
+//         languageName:"python",
+//         languageFileName:"py"
+//     }
+// ]
+// myCoding.forEach((item)=>{
+//     console.log(item.languageName)
+// })
+//limitation of forEach
+// const coding=["js","ruby","java","python","cpp"]
+// const values=coding.forEach((item)=>{
+//     console.log(item)
+//     return item
+// })
+// console.log(values)
